@@ -1,0 +1,31 @@
+﻿###########################
+# Switzerland Events
+###########################
+
+add_namespace = austria
+
+# Switzerland demands Vorarlberg
+country_event = {
+	id = austria.101
+	title = austria.101.t
+	desc = austria.101.d
+	picture = GFX_report_event_pro_vorarlberg
+
+	is_triggered_only = yes
+
+	option = { # Accept demands
+		name = austria.101.a
+		ai_chance = { factor = 70 }
+		remove_state_core = 745
+		SWI = {
+			country_event = { days = 5 id = switzerland.101 }
+		}
+	}
+	option = { # Refuse
+		name = austria.101.b
+		ai_chance = { factor = 25 }
+		SWI = {
+			country_event = { days = 5 id = switzerland.102 }
+		}
+	}
+}

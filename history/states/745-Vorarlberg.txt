@@ -1,0 +1,27 @@
+
+state={
+	id=745
+	name="STATE_745"
+	manpower = 155020
+
+	state_category = town
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = AUS
+
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+		}
+	}
+
+	provinces={
+		6680 6678
+	}
+}
