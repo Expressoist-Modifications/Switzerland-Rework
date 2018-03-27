@@ -63,7 +63,6 @@ set_technology = {
 		advanced_machine_tools = 1
 		synth_oil_experiments = 1
 		oil_plant = 1
-		improved_oil_plant = 1
 		construction1 = 1
 		construction2 = 1
 		dispersed_industry = 1
@@ -122,7 +121,7 @@ add_ideas = {
 	limited_conscription
 }
 
-set_national_unity = 0.45
+set_stability = 0.45
 
 create_country_leader = {
 	name = "Federal Council"

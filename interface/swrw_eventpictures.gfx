@@ -1,0 +1,23 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_report_event_pro_vorarlberg"
+		texturefile = "gfx/event_pictures/report_event_pro_vorarlberg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_henri_guisan"
+		texturefile = "gfx/event_pictures/report_event_henri_guisan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_swiss_border"
+		texturefile = "gfx/event_pictures/report_event_swiss_border.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_swiss_army"
+		texturefile = "gfx/event_pictures/report_event_swiss_army.dds"
+	}
+	
+}

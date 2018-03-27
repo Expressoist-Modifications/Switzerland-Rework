@@ -32,9 +32,9 @@ country_event = {
 		name = switzerland.101.a
 		ai_chance = { factor = 100 }
 		SWI = {
-			transfer_state = 745
-			add_state_core = 745
-			add_national_unity = -0.15
+			transfer_state = 765
+			add_state_core = 765
+			add_stability = -0.15
 		}
 	}
 }
@@ -67,10 +67,10 @@ country_event = {
 		name = switzerland.103.a
 		ai_chance = { factor = 100 }
 		SWI = {
-			add_national_unity = -0.05
+			add_stability = -0.05
 		}
 		ITA = {
-			remove_state_claim = 743
+			remove_state_claim = 763
 		}
 	}
 }
@@ -99,7 +99,7 @@ country_event = {
 	major = no
 
 	trigger = {
-		FRA = { controls_state = 744
+		FRA = { controls_state = 764
 						has_war = yes }
 		NOT = { SWI = { has_war_with = FRA
 										has_country_flag = SWI_haute_savoy }
@@ -114,7 +114,7 @@ country_event = {
 		name = switzerland.105.a
 		ai_chance = { factor = 0 }
 		SWI = {
-			transfer_state = 744
+			transfer_state = 764
 		}
 		if = {
 			limit = {
