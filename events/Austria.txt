@@ -15,8 +15,7 @@ country_event = {
 
 	option = { # Accept demands
 		name = austria.101.a
-		ai_chance = { factor = 70 }
-		remove_state_core = 745
+		ai_chance = { factor = 75 }
 		SWI = {
 			country_event = { days = 5 id = switzerland.101 }
 		}
