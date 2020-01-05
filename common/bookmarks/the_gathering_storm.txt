@@ -147,7 +147,7 @@ bookmarks = {
 			history = SWI_GATHERING_STORM_DESC
 			ideology = democratic
 			ideas={
-				neutrality_idea
+				swiss_neutrality
 			}
 			focuses = {
 				SWI_banking_act

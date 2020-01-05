@@ -25,14 +25,15 @@ set_technology = {
 	add_political_power = 1198
 	
 	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
+	complete_national_focus = SWI_banking_act
+	complete_national_focus = SWI_expand_sbb
+	complete_national_focus = SWI_rearmament
+	complete_national_focus = SWI_reduit_national
+	complete_national_focus = SWI_limmatstellung
+	complete_national_focus = SWI_vollmachtenregime
+	complete_national_focus = SWI_status_quo
+	complete_national_focus = SWI_spiritual_national_defence
+	complete_national_focus = SWI_army_effort
 	
 	oob = "SWI_1939"
 	set_technology = {
@@ -91,7 +92,7 @@ set_popularities = {
 }
 
 add_ideas = {
-	neutrality_idea
+	swiss_neutrality
 	limited_conscription
 }
 

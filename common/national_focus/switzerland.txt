@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = SWI_banking_act
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_usa_reestablish_the_gold_standard
 		x = 10
 		y = 0
 		cost = 10
@@ -166,7 +166,7 @@ focus_tree = {
 		prerequisite = { focus = SWI_agrarian_reform }
 		x = 7
 		y = 3
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 10
@@ -188,7 +188,7 @@ focus_tree = {
 		prerequisite = { focus = SWI_expand_ptt }
 		x = 7
 		y = 4
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 10
@@ -329,7 +329,7 @@ focus_tree = {
 
 	focus = {
 		id = SWI_rearmament
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_chi_army_reform
 		prerequisite = {focus = SWI_banking_act }
 		x = 10
 		y = 2
@@ -548,7 +548,7 @@ focus_tree = {
 		prerequisite = {focus = SWI_aggressive_focus }
 		x = 11
 		y = 4
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 1
@@ -571,8 +571,8 @@ focus_tree = {
 		prerequisite = {focus = SWI_doctrine_effort }
 		x = 11
 		y = 5
-		cost = 5
-
+		cost = 10
+		
 		ai_will_do  = {
 			factor = 1
 		}
@@ -680,7 +680,7 @@ focus_tree = {
 		prerequisite = {focus = SWI_commission_on_atomic_energy }
 		x = 12
 		y = 8
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 10
@@ -703,7 +703,7 @@ focus_tree = {
 		prerequisite = {focus = SWI_equipment_effort }
 		x = 12
 		y = 9
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 10
@@ -790,7 +790,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SWI_status_quo }
 		x = 17
 		y = 2
-		cost = 5
+		cost = 10
 
 		available = {
 			country_exists = AUS
@@ -867,7 +867,7 @@ focus_tree = {
 
 		x = 17
 		y = 4
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 1
@@ -886,7 +886,7 @@ focus_tree = {
 		prerequisite = { focus = SWI_march_on_berne}
 		x = 17
 		y = 5
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 1
@@ -920,18 +920,18 @@ focus_tree = {
 
 	focus = {
 		id = SWI_join_axis
-		icon = GFX_goal_support_fascism
+		icon = GFX_focus_chi_mission_to_germany
 		prerequisite = { focus = SWI_restoration }
 		x = 17
 		y = 7
-		cost = 10
+		cost = 5
 
 		ai_will_do  = {
 			factor = 1
 		}
 
 		completion_reward = {
-			remove_ideas = { neutrality_idea  }
+			remove_ideas = { swiss_neutrality  }
 			add_ideas = { prussian_spirit }
 			GER = { add_to_faction = SWI }
 		}
@@ -948,7 +948,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SWI_liberty_ethos }
 		x = 15
 		y = 4
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 1
@@ -963,11 +963,11 @@ focus_tree = {
 
 	focus = {
 		id = SWI_lenins_legacy
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		prerequisite = {focus = SWI_labour_peace}
 		x = 15
 		y = 5
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 1
@@ -981,7 +981,7 @@ focus_tree = {
 
 	focus = {
 		id = SWI_peoples_council
-		icon = GFX_goal_generic_dangerous_deal
+		icon = GFX_focus_YUG_pan_slavic_congress
 		prerequisite = {focus = SWI_lenins_legacy}
 		x = 15
 		y = 6
@@ -1001,18 +1001,18 @@ focus_tree = {
 
 	focus = {
 			id = SWI_join_comintern
-			icon = GFX_goal_support_communism
+			icon = GFX_focus_chi_mission_to_the_soviet_union
 			prerequisite = {focus = SWI_peoples_council}
 			x = 15
 			y = 7
-			cost = 1
+			cost = 5
 
 			ai_will_do  = {
 				factor = 10
 			}
 
 			completion_reward = {
-				remove_ideas = { neutrality_idea  }
+				remove_ideas = { swiss_neutrality  }
 				add_ideas = { dada_revolution }
 				SOV = { add_to_faction = SWI }
 			}
@@ -1037,7 +1037,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			remove_ideas = neutrality_idea
+			remove_ideas = swiss_neutrality
 			add_ideas = armed_neutrality
 			add_political_power = 150
 			add_stability = 0.05
@@ -1059,7 +1059,7 @@ focus_tree = {
 		prerequisite = { focus = SWI_armed_neutrality }
 		x = 13
 		y = 5
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 10
@@ -1084,7 +1084,7 @@ focus_tree = {
 		prerequisite = {focus = SWI_domestic_industry}
 		x = 13
 		y = 6
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 10
@@ -1105,11 +1105,11 @@ focus_tree = {
 
 	focus = {
 		id = SWI_preserve_neutrality
-		icon = GFX_goal_anschluss
+		icon = GFX_focus_generic_self_management
 		prerequisite = {focus = SWI_army_youth}
 		x = 13
 		y = 7
-		cost = 10
+		cost = 5
 
 		ai_will_do  = {
 			factor = 10
@@ -1133,7 +1133,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SWI_march_on_berne }
 		x = 19
 		y = 4
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 1
@@ -1152,7 +1152,7 @@ focus_tree = {
 		prerequisite = {focus = SWI_liberty_ethos}
 		x = 19
 		y = 5
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 1
@@ -1171,7 +1171,7 @@ focus_tree = {
 		prerequisite = {focus = SWI_embargo_germany}
 		x = 19
 		y = 6
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 1
@@ -1185,7 +1185,7 @@ focus_tree = {
 
 		focus = {
 			id = SWI_join_allies
-			icon = GFX_goal_support_democracy
+			icon = GFX_focus_chi_british_cooperation
 			prerequisite = {focus = SWI_war_economy}
 			x = 19
 			y = 7
@@ -1196,7 +1196,7 @@ focus_tree = {
 			}
 
 			completion_reward = {
-				remove_ideas = { neutrality_idea  }
+				remove_ideas = { swiss_neutrality  }
 				swap_ideas = { remove_idea = banking_law add_idea = banking_law_2 }
 				ENG = { add_to_faction = SWI }
 				add_resource = { type = steel amount = 9 state = 3 }
@@ -1214,7 +1214,7 @@ focus_tree = {
 		prerequisite = {focus = SWI_spiritual_national_defence }
 		x = 21
 		y = 4
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 7
@@ -1231,7 +1231,7 @@ focus_tree = {
 		prerequisite = {focus = SWI_new_national_language}
 		x = 21
 		y = 5
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 7
@@ -1249,7 +1249,7 @@ focus_tree = {
 		prerequisite = {focus = SWI_active_propaganda}
 		x = 21
 		y = 6
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 7
@@ -1285,7 +1285,7 @@ focus_tree = {
 		prerequisite = {focus = SWI_war_bonds}
 		x = 21
 		y = 8
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 7
@@ -1304,9 +1304,9 @@ focus_tree = {
 		id = SWI_centralize_the_government
 		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = { focus = SWI_join_allies
-		 								 focus = SWI_preserve_neutrality
-										 focus = SWI_join_axis
-										 focus = SWI_join_comintern }
+		 				 focus = SWI_preserve_neutrality
+						 focus = SWI_join_axis
+						 focus = SWI_join_comintern }
 		prerequisite = {focus = SWI_elvetismo }
 		x = 16
 		y = 8
@@ -1328,7 +1328,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SWI_strengthen_the_sbb }
 		x = 15
 		y = 9
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 4
@@ -1351,7 +1351,7 @@ focus_tree = {
 		mutually_exclusive = { focus = SWI_strengthen_the_ptt }
 		x = 17
 		y = 9
-		cost = 5
+		cost = 10
 
 		ai_will_do  = {
 			factor = 4

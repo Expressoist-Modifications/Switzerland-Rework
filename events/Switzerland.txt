@@ -100,10 +100,11 @@ country_event = {
 
 	trigger = {
 		FRA = { controls_state = 789
-						has_war = yes }
-		NOT = { SWI = { has_war_with = FRA
-										has_country_flag = SWI_haute_savoy }
-					}
+			has_war = yes }
+		NOT = { SWI = { 
+			has_war_with = FRA
+			has_country_flag = SWI_haute_savoy }
+		}
 	}
 
 	mean_time_to_happen = {
@@ -129,7 +130,11 @@ country_event = {
 			FRA = { add_opinion_modifier = { target = SWI modifier = SWI_haute } }
 		}
 
-		hidden_effect = { SWI = { set_country_flag = SWI_haute_savoy } }
+		hidden_effect = { 
+			SWI = { 
+				set_country_flag = SWI_haute_savoy 
+			} 
+		}
 	}
 
 	option = { # Doesn't take
@@ -148,17 +153,15 @@ country_event = {
 
 	trigger = {
 			OR = {
-				2 = { is_controlled_by = ENG }
-				2 = { is_controlled_by = USA }
-				2 = { is_controlled_by = AST }
-				2 = { is_controlled_by = CAN }
-				2 = { is_controlled_by = NZL }
-				2 = { is_controlled_by = SAF }
+				ENG = { has_war_with = GER }
+				USA = { has_war_with = GER }
+				SOV = { has_war_with = GER }
+				FRA = { has_war_with = GER }
 			}
 			NOT = {
 				SWI = { has_war_with = ITA
-								is_in_faction_with = GER
-								has_country_flag = SWI_fall_of_rome }
+					is_in_faction_with = GER
+					has_country_flag = SWI_fall_of_rome }
 			}
 		}
 
@@ -169,13 +172,14 @@ country_event = {
 	option = { # Takes
 		name = switzerland.106.a
 		ai_chance = { factor = 0 }
+		SWI = { give_military_access = GER }
 		ENG = { add_opinion_modifier = { target = SWI modifier = SWI_german_yes } }
 		USA = { add_opinion_modifier = { target = SWI modifier = SWI_german_yes } }
-		AST = { add_opinion_modifier = { target = SWI modifier = SWI_german_yes } }
-		CAN = { add_opinion_modifier = { target = SWI modifier = SWI_german_yes } }
-		SAF = { add_opinion_modifier = { target = SWI modifier = SWI_german_yes } }
-		GER = { give_military_access = SWI }
-		hidden_effect = { SWI = { set_country_flag = SWI_fall_of_rome } }
+		SOV = { add_opinion_modifier = { target = SWI modifier = SWI_german_yes } }
+		FRA = { add_opinion_modifier = { target = SWI modifier = SWI_german_yes } }
+		hidden_effect = { 
+			SWI = { set_country_flag = SWI_fall_of_rome } 
+		}
 	}
 
 	option = { # Doesn't take
