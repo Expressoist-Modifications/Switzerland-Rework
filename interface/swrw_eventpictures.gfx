@@ -1,5 +1,6 @@
 spriteTypes = {
 
+	#### Events ####
 	spriteType = {
 		name = "GFX_report_event_pro_vorarlberg"
 		texturefile = "gfx/event_pictures/report_event_pro_vorarlberg.dds"
@@ -18,6 +19,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_report_event_swiss_army"
 		texturefile = "gfx/event_pictures/report_event_swiss_army.dds"
+	}
+	
+	#### News ####
+	spriteType = {
+		name = "GFX_news_event_swiss_nsd"
+		texturefile = "gfx/event_pictures/news_event_swiss_nsd.dds"
 	}
 	
 }

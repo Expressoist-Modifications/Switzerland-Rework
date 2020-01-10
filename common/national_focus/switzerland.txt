@@ -334,6 +334,8 @@ focus_tree = {
 		x = 10
 		y = 2
 		cost = 10
+		
+		continue_if_invalid = yes
 
 		available = {
 			OR = {
@@ -488,7 +490,7 @@ focus_tree = {
 				}
 			}
 
-			743 = {
+			788 = {
 				add_building_construction = {
 						type = bunker
 						province = 3641
@@ -734,6 +736,8 @@ focus_tree = {
 		x = 16
 		y = 1
 		cost = 10
+		
+		continue_if_invalid = yes
 
 		available = {
 			OR = {
@@ -777,6 +781,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
+			news_event = switzerland.107
 			add_ideas = spiritual_national_defence
 		}
 	}
