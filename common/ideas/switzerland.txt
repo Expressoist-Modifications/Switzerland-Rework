@@ -166,7 +166,7 @@ ideas = {
 		}
 
 		armed_neutrality = {
-			picture = swiss_neutrality
+			picture = armed_neutrality
 
 			allowed = {
 				always = no}

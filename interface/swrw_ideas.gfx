@@ -9,5 +9,10 @@ spriteTypes = {
 		name = "GFX_idea_swiss_neutrality"
 		texturefile = "gfx/interface/ideas/idea_swiss_neutrality.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_armed_neutrality"
+		texturefile = "gfx/interface/ideas/idea_armed_neutrality.dds"
+	}
 
 }
