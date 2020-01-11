@@ -1,0 +1,7 @@
+﻿l_english:
+ SWI_surrounded_by_war:0 "Surrounded by War"
+ SWI_surrounded_by_war_desc:0 "War is spreading in Europe! As a neutral country surrounded by war on all sides we are in a difficult situation. We can only stay out of this conflict if we stand by our neutrality. However, we could also profit from this war through carefully planned political actions... "
+ SWI_request_from_germany:0 "Allow Germany to use the Gotthard"
+ SWI_request_from_germany_desc:0 "With our central location in Europe, the government of Germany announced that they would like to send their cargo trains via the Gotthard tunnel to Italy. The cooperation with [GER.GetLeader] would certainly damage our legitimacy as a neutral state, but the economy would definitely be pleased."
+ SWI_haute_savoy_integration:0 "Haute-Savoy seeks Integration"
+ SWI_haute_savoy_integration_desc:0 "With France at war, the local government of Haute-Savoy announced that it wishes to join the Swiss Confederation. Although the intentions of this call are obvious, we should not simply turn down this offer."

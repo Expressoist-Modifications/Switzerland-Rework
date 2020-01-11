@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_decision_cat_surrounded_by_war"
+		texturefile = "gfx/interface/decisions/decision_cat_surrounded_by_war.dds"
+	}
+
+}
