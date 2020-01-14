@@ -23,7 +23,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 160
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -47,7 +51,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -95,7 +103,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -117,7 +129,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -141,7 +157,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -169,7 +189,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -191,7 +215,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -216,7 +244,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -233,7 +265,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -260,7 +296,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -285,7 +325,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -315,7 +359,11 @@ focus_tree = {
 		}
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -357,7 +405,11 @@ focus_tree = {
 		}
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 120
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -390,7 +442,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 80
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -409,7 +465,11 @@ focus_tree = {
 		cost = 15
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -447,7 +507,11 @@ focus_tree = {
 		cost = 15
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -536,6 +600,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -554,6 +622,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -577,6 +649,10 @@ focus_tree = {
 		
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -607,7 +683,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 80
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -629,7 +709,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -660,7 +744,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -685,7 +773,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -708,7 +800,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -759,7 +855,11 @@ focus_tree = {
 		}
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 120
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -777,7 +877,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 80
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -803,6 +907,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -831,6 +939,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -851,7 +963,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -876,6 +992,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -895,6 +1015,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -913,6 +1037,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -933,6 +1061,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -957,6 +1089,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -976,6 +1112,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -994,6 +1134,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1005,22 +1149,26 @@ focus_tree = {
 	}
 
 	focus = {
-			id = SWI_join_comintern
-			icon = GFX_focus_chi_mission_to_the_soviet_union
-			prerequisite = {focus = SWI_peoples_council}
-			x = 15
-			y = 7
-			cost = 5
+		id = SWI_join_comintern
+		icon = GFX_focus_chi_mission_to_the_soviet_union
+		prerequisite = {focus = SWI_peoples_council}
+		x = 15
+		y = 7
+		cost = 5
 
-			ai_will_do  = {
-				factor = 10
+		ai_will_do  = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
 			}
+		}
 
-			completion_reward = {
-				remove_ideas = { swiss_neutrality  }
-				add_ideas = { dada_revolution }
-				SOV = { add_to_faction = SWI }
-			}
+		completion_reward = {
+			remove_ideas = { swiss_neutrality  }
+			add_ideas = { dada_revolution }
+			SOV = { add_to_faction = SWI }
+		}
 	}
 
 	# Neutral
@@ -1038,12 +1186,27 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 120
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
-			remove_ideas = swiss_neutrality
-			add_ideas = armed_neutrality
+			if = {
+				limit = { 
+					has_idea = swiss_neutrality
+				}
+				swap_ideas = {
+					remove_idea = swiss_neutrality 
+					add_idea = armed_neutrality
+				}
+				else = {
+					add_ideas = armed_neutrality
+				}
+			}
+			
 			add_political_power = 150
 			add_stability = 0.05
 
@@ -1067,7 +1230,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1092,7 +1259,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1117,7 +1288,11 @@ focus_tree = {
 		cost = 5
 
 		ai_will_do  = {
-			factor = 10
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1142,6 +1317,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1161,6 +1340,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1180,6 +1363,10 @@ focus_tree = {
 
 		ai_will_do  = {
 			factor = 1
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1198,6 +1385,10 @@ focus_tree = {
 
 			ai_will_do  = {
 				factor = 1
+				modifier = {
+					factor = 0
+					is_historical_focus_on = yes
+				}
 			}
 
 			completion_reward = {
@@ -1222,7 +1413,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1239,7 +1434,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1257,10 +1456,15 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
+			country_event = switzerland.108
 			add_named_threat = { threat = 2 name = switzerland.100.t }
 			add_stability = 0.05
 			add_political_power = 30
@@ -1276,7 +1480,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1293,7 +1501,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1318,7 +1530,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 6
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1336,7 +1552,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 4
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1359,7 +1579,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 4
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1385,7 +1609,11 @@ focus_tree = {
 		cost = 15
 
 		ai_will_do  = {
-			factor = 4
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1402,7 +1630,11 @@ focus_tree = {
 		cost = 15
 
 		ai_will_do  = {
-			factor = 4
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1424,7 +1656,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1441,7 +1677,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 20
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1469,7 +1709,11 @@ focus_tree = {
 		}
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 20
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1504,7 +1748,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 20
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1539,7 +1787,11 @@ focus_tree = {
 		}
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 20
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1567,7 +1819,11 @@ focus_tree = {
 		}
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 20
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1596,7 +1852,11 @@ focus_tree = {
 		}
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 20
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1619,7 +1879,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 20
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1636,7 +1900,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 20
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1660,7 +1928,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 20
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1684,7 +1956,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 20
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {
@@ -1708,7 +1984,11 @@ focus_tree = {
 		cost = 10
 
 		ai_will_do  = {
-			factor = 7
+			factor = 1
+			modifier = {
+				factor = 20
+				is_historical_focus_on = yes
+			}
 		}
 
 		completion_reward = {

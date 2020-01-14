@@ -131,3 +131,18 @@ news_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+
+#Rütlirapport
+country_event = {
+	id = switzerland.108
+	title = switzerland.108.t
+	desc = switzerland.108.d
+	picture = GFX_report_event_swiss_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = switzerland.108.a
+		ai_chance = { factor = 100 }
+	}
+}
