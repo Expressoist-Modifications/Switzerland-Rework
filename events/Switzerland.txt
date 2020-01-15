@@ -13,13 +13,12 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { # Accept demands
+	option = {
 		name = switzerland.100.a
-		ai_chance = { factor = 100 }
 	}
 }
 
-# Switzerland demands Vorarlberg
+# Austria accepts Referendum
 country_event = {
 	id = switzerland.101
 	title = switzerland.101.t
@@ -28,9 +27,8 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { # Accept demands
+	option = {
 		name = switzerland.101.a
-		ai_chance = { factor = 100 }
 		SWI = {
 			transfer_state = 790
 			add_state_core = 790
@@ -39,6 +37,7 @@ country_event = {
 	}
 }
 
+# Austria refuses Referendum
 country_event = {
 	id = switzerland.102
 	title = switzerland.102.t
@@ -47,14 +46,13 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { # Reject
+	option = {
 		name = switzerland.102.a
-		ai_chance = { factor = 100 }
 	}
 }
 
 
-# Switzerland demands Tessin
+# Italy accepts Demand
 country_event = {
 	id = switzerland.103
 	title = switzerland.103.t
@@ -65,7 +63,6 @@ country_event = {
 
 	option = { # Accept demands
 		name = switzerland.103.a
-		ai_chance = { factor = 100 }
 		SWI = {
 			add_stability = -0.05
 		}
@@ -75,6 +72,7 @@ country_event = {
 	}
 }
 
+# Italy refuses Demand
 country_event = {
 	id = switzerland.104
 	title = switzerland.104.t
@@ -104,7 +102,6 @@ news_event = {
 			tag = SWI
 		}
 		name = switzerland.107.a
-		ai_chance = { factor = 100 }
 	}
 	
 	option = { # Dem / Neut
@@ -116,7 +113,6 @@ news_event = {
 			}
 		}
 		name = switzerland.107.b
-		ai_chance = { factor = 100 }
 	}
 	
 	option = { # Com / Fas
@@ -128,7 +124,6 @@ news_event = {
 			}
 		}
 		name = switzerland.107.c
-		ai_chance = { factor = 100 }
 	}
 }
 
@@ -143,6 +138,5 @@ country_event = {
 
 	option = {
 		name = switzerland.108.a
-		ai_chance = { factor = 100 }
 	}
 }

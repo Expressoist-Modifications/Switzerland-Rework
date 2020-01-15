@@ -421,9 +421,13 @@ focus_tree = {
 				create_field_marshal = {
 					name = "Henri Guisan"
 					portrait_path = "gfx/leaders/SWI/Portrait_Henry_Guisan.dds"
-					traits = { defensive_doctrine thorough_planner }
+					traits = { defensive_doctrine thorough_planner }				
 					skill = 3
-					id = 1
+					id = 500
+					attack_skill = 1
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 1
 				}
 			}
 		}
@@ -827,7 +831,7 @@ focus_tree = {
 
 	focus = {
 		id = SWI_vollmachtenregime
-		icon = GFX_goal_generic_forceful_treaty
+		icon = GFX_focus_usa_voter_registration_act
 		prerequisite = {focus = SWI_banking_act }
 		x = 16
 		y = 1

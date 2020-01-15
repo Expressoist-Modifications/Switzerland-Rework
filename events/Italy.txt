@@ -15,14 +15,26 @@ country_event = {
 
 	option = { # Accept demands
 		name = italy.101.a
-		ai_chance = { factor = 40 }
+		ai_chance = { 
+			base = 1
+			modifier = {
+				factor = 40
+				is_historical_focus_on = yes
+			}
+		}
 		SWI = {
 			country_event = { days = 5 id = switzerland.103 }
 		}
 	}
 	option = { # Refuse
 		name = italy.101.b
-		ai_chance = { factor = 60 }
+		ai_chance = { 
+			base = 1
+			modifier = {
+				factor = 60
+				is_historical_focus_on = yes
+			}
+		}
 		SWI = {
 			country_event = { days = 5 id = switzerland.104 }
 		}
