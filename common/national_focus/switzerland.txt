@@ -1469,7 +1469,7 @@ focus_tree = {
 
 		completion_reward = {
 			country_event = switzerland.108
-			add_named_threat = { threat = 2 name = switzerland.100.t }
+			add_named_threat = { threat = 2 name = SWI_ruetlirapport }
 			add_stability = 0.05
 			add_political_power = 30
 		}
