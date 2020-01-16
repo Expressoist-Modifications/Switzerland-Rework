@@ -6,6 +6,6 @@ tags={
 	"Historical"
 	"Events"
 }
-picture="thumb.jpg"
+picture="thumbnail.png"
 supported_version="1.8.*"
 remote_file_id="925983866"
