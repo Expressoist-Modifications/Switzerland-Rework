@@ -17,7 +17,7 @@ We tried to make this mod not only as balanced as possible, but also as historic
 - New Flags and Names, when you change Ideology
 
 #### UPDATE INFORMATION
-We consider the current version as complete and will not add any new content. We will update the mod to new versions from time to time if someone in the comments wishes so.
+We consider the current version as complete and will not add any new content. We will update the mod to new versions from time to time if someone in the comments on [Steam](https://steamcommunity.com/sharedfiles/filedetails/?id=925983866&searchtext=) wishes so.
 
 Have fun playing!
 Please consider giving this mod a like and a star-favourite-thingy!
