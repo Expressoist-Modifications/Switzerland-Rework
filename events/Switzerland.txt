@@ -30,8 +30,8 @@ country_event = {
 	option = {
 		name = switzerland.101.a
 		SWI = {
-			transfer_state = 790
-			add_state_core = 790
+			transfer_state = 799
+			add_state_core = 799
 			add_stability = -0.15
 		}
 	}
@@ -67,7 +67,7 @@ country_event = {
 			add_stability = -0.05
 		}
 		ITA = {
-			remove_state_claim = 788
+			remove_state_claim = 797
 		}
 	}
 }

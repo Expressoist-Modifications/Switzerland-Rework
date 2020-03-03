@@ -83,14 +83,14 @@ SWI_surrounded_by_war = {
 		
 		available = { 
 			FRA = { 
-				controls_state = 789
+				controls_state = 798
 				has_war = yes
 			}
 		}			
 		
 		remove_effect = {
 			SWI = {
-				transfer_state = 789
+				transfer_state = 798
 			}
 			if = {
 				limit = {

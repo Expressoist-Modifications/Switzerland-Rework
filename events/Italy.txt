@@ -596,4 +596,3 @@ country_event = {
 		transfer_state = 735
 	}
 }
-

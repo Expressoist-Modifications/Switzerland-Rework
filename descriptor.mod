@@ -1,5 +1,4 @@
 name="Switzerland Rework"
-path="C:/Users/Lukas Messmer/Documents/Paradox Interactive/Hearts of Iron IV/mod/swrw"
 tags={
 	"National Focuses"
 	"Gameplay"
@@ -7,5 +6,6 @@ tags={
 	"Events"
 }
 picture="thumbnail.png"
-supported_version="1.8.*"
+supported_version="1.9.*"
+path="C:/Users/Lukas Messmer/Documents/Paradox Interactive/Hearts of Iron IV/mod/swrw"
 remote_file_id="925983866"
